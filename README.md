@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @AhmtArd
 - 👀 I’m interested in computer,software and network technologies
 - 🌱 I’m currently learning python and networking
-- 📫 You can text me on discord.My nick:ahmtard
+- 📫 You can text me on discord, -@ahmtard-
