@@ -1,0 +1,49 @@
+def add(x, y):
+    return x+y
+def sub(x, y):
+    return x-y
+def mul(x, y):
+    return x*y
+def div(x, y):
+    return x/y
+def pwr(x, y):
+    return x**y
+
+
+print("--Basic Calculator--")
+
+while True:
+    print("1-Addition")
+    print("2-Subtraction")
+    print("3-Multiplication")
+    print("4-Division")
+    print("5-Power Calculating")
+    print("6-Exit")
+ 
+    secim = (input("Choose the operation:"))
+
+    if secim == '6':
+        print("Goodbye!")
+        break
+    else:
+        n1 = int(input("Number 1:"))
+        n2 = int(input("Number 2:"))
+
+        if secim == '1':
+            print("=", add(n1, n2))
+        elif secim == '2':
+            print("=", sub(n1, n2))
+        elif secim == '3':
+            print("=", mul(n1, n2))
+        elif secim == '4':
+            if n2 == 0:
+                print("Second input cannot be '0',please try again.")
+            else:
+                print("=", div(n1, n2))
+        elif secim == '5':
+            if n1 == 0 and n2 == 0:
+                print("Undefined!")
+            else:
+                print("= ", pwr(n1, n2))
+        else:
+            print("Invalid input!")
